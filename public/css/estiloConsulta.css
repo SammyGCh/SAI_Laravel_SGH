@@ -1,0 +1,24 @@
+#div1 {
+width:80%;
+position: static;
+
+}
+
+#div1 table {
+width: 100%;
+font-family: 'Open Sans', sans-serif;
+font-weight:bold;
+height: 30px;
+text-align: center;
+border-bottom: solid 5px #6658e8;
+}
+
+#titulo{
+text-align: center;
+}
+
+.tablas{
+width: 80%;
+margin: 0 auto;
+border-radius: 3px;
+}
