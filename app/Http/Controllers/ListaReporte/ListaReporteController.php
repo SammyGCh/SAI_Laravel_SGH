@@ -22,7 +22,10 @@ class ListaReporteController extends Controller
             return Redirect::to('/consultadeReportes');
         }else{
             $data=array();
-            $data['status']=$request->estatus;
+            if($request->estatus != null){
+                $s = mb_convert_case($request->estatus, MB_CASE_UPPER, 'UTF-8');
+                $data['status']= $s;
+            }
             $data['observaciones']=$request->observaciones;
             $data['periodoAtencion']=$request->periodoAtencion;
      

@@ -15,7 +15,7 @@
 
         <div>
             <label for="estatus" class="form-Nombres">Estatus</label>
-           <select name="estatus" required class="form-Menu" style="text-align-last: center">
+           <select name="estatus" class="form-Menu" style="text-align-last: center">
                 <?php if($listaDeReportes->status == 'AC'){ 
                     echo "<option  disabled selected value = '$listaDeReportes->status'>AC (ACTIVO)</option>";
                     echo "<option value = 'NA'>NA (NO ACTIVO)</option>";
