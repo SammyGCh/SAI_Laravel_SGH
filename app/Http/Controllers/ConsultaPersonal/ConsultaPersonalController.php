@@ -17,3 +17,4 @@ class ConsultaPersonalController extends Controller
         ->with('all_area_info', $all_area_info);
     }
 }
+?>
